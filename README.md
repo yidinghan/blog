@@ -6,14 +6,47 @@
 
 ### zsh-autosuggestions
 
-#### What is it?
+History Command Finder
 
+##### Link
+
+[Home Page](https://github.com/zsh-users/zsh-autosuggestions)
 
 ### autojump
 
+Directories Navigate
+
+##### What can it do?
+
+Stroger cd cmd
+
+##### Link
+
+[Home Page](https://github.com/wting/autojump)
+
 ### fzf
 
+History Command Finder
+
+##### What can it do?
+
+Quick cmd, history cmd reused
+
+##### Link
+
+[Home Page](https://github.com/junegunn/fzf)
+
 ### ag
+
+Code-Searching
+
+##### What can it do?
+
+Search every file in current directory
+
+##### Link
+
+[Home Page](https://github.com/ggreer/the_silver_searcher)
 
 ## Development
 

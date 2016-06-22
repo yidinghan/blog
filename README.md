@@ -145,6 +145,12 @@ Task Switcher
 
 Stronger Clipboard
 
+##### Screenshot
+
+![paste1](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/paste1.png)
+
+![paste2](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/paste2.png)
+
 ##### What can it do?
 
  * Stores everything you copy

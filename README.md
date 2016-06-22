@@ -76,6 +76,16 @@ Code-Searching
 
 Terminal
 
+##### Screenshot
+
+![split_panes_full](https://www.iterm2.com/img/screenshots/split_panes_full.png)
+
+![search](https://www.iterm2.com/img/screenshots/search.png)
+
+![mouselesscopy](https://www.iterm2.com/img/screenshots/mouselesscopy.gif)
+
+![256colors](https://www.iterm2.com/img/screenshots/256colors.png)
+
 ##### What can it do?
 
  * split panel
@@ -91,6 +101,14 @@ Terminal
 ### Dash
 
 Documents Browser
+
+##### Screenshot
+
+![dash-s1](https://kapeli.com/img/dash-s1.png)
+
+![dash-s2](https://kapeli.com/img/dash-s2.png)
+
+![dash-s3](https://kapeli.com/img/dash-s3.png)
 
 ##### What can it do?
 

@@ -144,4 +144,31 @@ Searcher and Workflow
 
 ### Fantastical
 
+The Best Calendar
+
+##### What can it do?
+
+ * Reminder
+ * Event
+ * Natural language
+ * Calendar sets
+ * Mini window
+
+##### Link
+
+ * [Home Page](https://flexibits.com/fantastica/)
+
 ### OmniFoucs
+
+The Best Task Management
+
+##### What can it do?
+
+ * GTD
+ * Project
+ * Quick Entry
+
+##### Link
+
+ * [Home Page](https://www.omnigroup.com/omnifocus/)
+

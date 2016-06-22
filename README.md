@@ -8,6 +8,10 @@
 
 History Command Finder
 
+##### Screenshot
+
+![autosuggestions](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/autosuggestions.png)
+
 ##### What can it do?
 
  * quick cmd
@@ -21,6 +25,10 @@ History Command Finder
 
 Directories Navigate
 
+##### Screenshot
+
+![autojump](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/autojump.png)
+
 ##### What can it do?
 
   * Stroger cd cmd
@@ -33,6 +41,10 @@ Directories Navigate
 
 History Command Finder
 
+##### Screenshot
+
+![fzf](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/fzf.png)
+
 ##### What can it do?
 
  * Quick cmd
@@ -43,6 +55,10 @@ History Command Finder
  * [Home Page](https://github.com/junegunn/fzf)
 
 ### ag
+
+##### Screenshot
+
+![ag](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/ag.png)
 
 Code-Searching
 

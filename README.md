@@ -125,6 +125,14 @@ Documents Browser
 
 Task Switcher
 
+##### Screenshot
+
+![cmdtap](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/cmdtap.png)
+
+![cmdtap-2](http://www.yingdev.com/Content/Projects/CmdTap/Images/1.png)
+
+![cmdtap-3](http://www.yingdev.com/Content/Projects/CmdTap/Images/3.gif)
+
 ##### What can it do?
 
  * Switcher tasks without thinking 

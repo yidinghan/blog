@@ -8,6 +8,11 @@
 
 History Command Finder
 
+##### What can it do?
+
+ * quick cmd
+ * recently cmd reused
+  
 ##### Link
 
 [Home Page](https://github.com/zsh-users/zsh-autosuggestions)
@@ -18,11 +23,11 @@ Directories Navigate
 
 ##### What can it do?
 
-Stroger cd cmd
+  * Stroger cd cmd
 
 ##### Link
 
-[Home Page](https://github.com/wting/autojump)
+  * [Home Page](https://github.com/wting/autojump)
 
 ### fzf
 
@@ -30,11 +35,12 @@ History Command Finder
 
 ##### What can it do?
 
-Quick cmd, history cmd reused
+ * Quick cmd
+ * history cmd reused
 
 ##### Link
 
-[Home Page](https://github.com/junegunn/fzf)
+ * [Home Page](https://github.com/junegunn/fzf)
 
 ### ag
 
@@ -42,11 +48,11 @@ Code-Searching
 
 ##### What can it do?
 
-Search every file in current directory
+ * Search every file in current directory
 
 ##### Link
 
-[Home Page](https://github.com/ggreer/the_silver_searcher)
+ * [Home Page](https://github.com/ggreer/the_silver_searcher)
 
 ## Development
 

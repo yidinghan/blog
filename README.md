@@ -58,17 +58,87 @@ Code-Searching
 
 ### iTerm
 
+Terminal
+
+##### What can it do?
+
+ * split panel
+ * strong finder
+ * zsh
+ * etc
+
+##### Link
+
+ * [Home Page](https://www.iterm2.com/)
+ * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
 ### Dash
+
+Documents Browser
+
+##### What can it do?
+
+ * search offline documentation
+
+##### Link
+
+ * [Home Page](https://kapeli.com/dash/)
+ * [Docsets list](https://kapeli.com/docset_links)
 
 ## Efficiency
 
 ### CmdTap
 
+Task Switcher
+
+##### What can it do?
+
+ * Switcher tasks without thinking 
+
+##### Link
+
+ * [Home Page](http://www.yingdev.com/projects/cmdtap/)
+
 ### Paste
+
+Stronger Clipboard
+
+##### What can it do?
+
+ * Stores everything you copy
+ * Extends your system clipboard 
+
+##### Link
+
+ * [Home Page](http://pasteapp.me/)
 
 ### 1Password
 
+Password Manager
+
+##### What can it do?
+
+ * Store all your passwords
+ * Change weak or duplicate passwords
+ * Save time on the web by signing
+
+##### Link
+
+ * [Home Page](https://1password.com/)
+
 ### Alfred
+
+Searcher and Workflow
+
+##### What can it do?
+
+ * Search and Browse
+ * Extend and Automate
+ * Powerpack
+
+##### Link
+
+ * [Home Page](https://www.alfredapp.com/)
 
 ## Life
 

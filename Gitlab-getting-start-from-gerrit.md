@@ -2,10 +2,6 @@
 
 ![logo](https://d2mxuefqeaa7sj.cloudfront.net/s_794FAEFB0B2845A072FAC4002EE4E459C17D9F497F3D1C6FA2D2CEA5A9DC0909_1467961424127_file.png)
 
-# 背景
-
-根据信息技术部自研发项目发展需求，现有的SCM代码审核平台已不能满足团队在代码开发过程中的协作需求，所以搭建了新一代社交化源码管理平台gitlab，以满足团队提升开发协作效率的需求。
-
 接下来的文章分三个部分介绍 Gitlab
 
 - Gitlab 都有什么？
@@ -83,7 +79,7 @@
 
 Gitlab CI Runner
 
-如果接触过开源项目里面用过，travis-ci 和 CircleCI 就会对 Gitlab CI 不会陌生
+如果接触过开源项目里面用过，[travis-ci](https://github.com/travis-ci/travis-ci) 和 [CircleCI](https://github.com/integrations/circle-ci) 就会对 Gitlab CI 不会陌生
 
 ⬇️每次 CI 被 push 时间触发后，就会附着到当前 push 的最新 commit 上
 

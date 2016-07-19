@@ -238,7 +238,7 @@ git remote get-url origin
 
 ### Git Flow + Merge Request
 
-关于 git-flow 的简介可看看 ＝》 这里，简单来说就是一种分支开发的规范。
+关于 [git-flow](https://github.com/nvie/gitflow) 的简介可看看 ＝》 [这里](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)，简单来说就是一种分支开发的规范。
 
 
 ### Code Review

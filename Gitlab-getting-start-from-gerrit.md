@@ -276,9 +276,9 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
 
 ### Gitlab CI Runner
 
-想要全面了解，从官方的 document 入手，可以看 ＝》 这里。
+想要全面了解，从官方的 document 入手，可以看 ＝》 [这里](http://docs.gitlab.com/ce/ci/README.html)。
 
-##### 配置简单
+#### 配置简单
 以一个 nodejs 语言的为例，简单的几句，就可以跑起单元测试。
 
 ```
@@ -290,8 +290,8 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
         - node
 ```
 
-##### 功能强大
-同样给予一个例子，体现了 cache，service，stages 和 environment。更多的功能还要翻看 .gitlab-ci.yml 配置手册。
+#### 功能强大
+同样给予一个例子，体现了 cache，service，stages 和 environment。更多的功能还要翻看 .gitlab-ci.yml [配置手册](http://docs.gitlab.com/ce/ci/yaml/README.html)。
 
 ```
     stages:
@@ -336,7 +336,7 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
 - services，运行的依赖，例子里面的单测需要有 mongo 实例的依赖，也可以用一个已经运行在别的地方的
 - tags，是用来选择 runner 用的，不同的 runner 根据配置的不同，会有执行环境和默认镜像的差别
 
-##### 结合紧密
+#### 结合紧密
 只要配置好了 .gitlab-ci.yml 文件，每次对仓库的操作都会触发一次 ci 的检查，执行符合条件的配置操作。上面配置文件里面出现的 only，就是限制条件的一种。
 
 每次 ci 也会记录到相应的 commit 上

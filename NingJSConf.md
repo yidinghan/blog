@@ -3,7 +3,7 @@ NingJSConf
 # 前端
 ## Vue.js: the Past and the Future
 
-**Speaker: **[**Evan You**](https://github.com/yyx990803)
+**Speaker**: [**Evan You**](https://github.com/yyx990803)
 
 除了介绍 vue 的发展历程，主要讲解了一下 vue 接下来的目标蓝图。
 
@@ -146,7 +146,7 @@ protocol buffer
 # 后端
 ## egg - 企业级 node 框架
 
-Speaker: [天猪](https://github.com/atian25)
+**Speaker**: [**天猪**](https://github.com/atian25)
 
 主要讲解了他们规范后端项目开发做出的一些努力成果，这个成果的直接体现就是egg。
 
@@ -179,7 +179,7 @@ egg，插件化
 
 ## GridControl: Networked PM2 for Microservices applications
 
-Speaker: [Alexandre Strzelewicz](https://github.com/Unitech)
+**Speaker**: [**Alexandre Strzelewicz**](https://github.com/Unitech)
 
 GridControl 主要是在解决 PM2 的网络层问题。熟悉 PM2 的同学都会知道这是一个 node process manager, 但是细心就会发现其实是一个纯粹的 process manager。
 
@@ -209,7 +209,7 @@ gridcontrol, serverless, network layer
 
 ## Node.js在线性能调优与故障排查
 
-Speaker: [朴灵](https://github.com/JacksonTian)
+**Speaker**: [**朴灵**](https://github.com/JacksonTian)
 
 该篇分享稍偏底层，主要从排查方法入手，顺带介绍一下 alinode 的在线排查功能。
 分三种场景 cpu，memory 和 GC 讲解，分别会遇上什么问题，该怎么排查定位，该怎么解决。

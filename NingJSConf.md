@@ -1,4 +1,7 @@
-NingJSConf
+# NingJS
+
+JSConf China（JavaScript 中国开发者大会）是一个为期两天的以技术开发者为中心的非营利国际性技术大会，主要关注JavaScript和Node.JS 方面的技术。期间我们将邀请众多国内外JavaScript社区著名的开发者来分享他们的知识及对JavaScript的独到见解。这里是过去几届活动的链接：（[2012](http://2012.jsconf.cn/)，[2013](http://2013.jsconf.cn/)，[2014](http://2014.jsconf.cn/)，[2015](http://2015.jsconf.cn/)）。去年深圳JS大会的视频可以在 [YouTube](https://www.youtube.com/channel/UCvFAekDfG_dL2Kcbq-vrPXQ) 和 [Tudou](http://www.tudou.com/home/wiredcraft)上看到。今年JS中国开发者大会将在南京于**2016年9月3日 － 9月4日举行.**
+
 
 # 前端
 ## Vue.js: the Past and the Future

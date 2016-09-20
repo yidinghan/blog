@@ -54,7 +54,7 @@ vue 2.0, render function, native app
 
 ## Building Virtual Reality on the Web
 
-**Speaker: **[**Kevin Ngo**](https://github.com/ngokevin)
+**Speaker**: [**Kevin Ngo**](https://github.com/ngokevin)
 
 随着 VR 概念越来越火，在 web 端实现 VR 也称为了一个很火的方向。
 

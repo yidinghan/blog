@@ -165,6 +165,8 @@ Review-Per-Commit 可以保证在开发过程中的质量以及安全，严格�
 
 无损迁移，按照步骤来就可搞定
 
+#### Migrate Address
+
 先去到项目列表页面
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_794FAEFB0B2845A072FAC4002EE4E459C17D9F497F3D1C6FA2D2CEA5A9DC0909_1468914238065_+2016-07-19+153858.jpg)
@@ -189,8 +191,14 @@ Review-Per-Commit 可以保证在开发过程中的质量以及安全，严格�
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_794FAEFB0B2845A072FAC4002EE4E459C17D9F497F3D1C6FA2D2CEA5A9DC0909_1468914598033_file.png)
 
+#### Auth Password
+
 接下来还差最后一步就可以了，因为要组装成下面的格式，我们还差一个password
 https://username:password@gitlab.company.com/group/project.git 
+
+根据不同的 gerrit 配置，验证的密码有两种
+
+##### HTTP Password
 
 在 scm 主页右上角选择 setting
 
@@ -200,6 +208,14 @@ https://username:password@gitlab.company.com/group/project.git
 然后就可以在HTTP Password 这个 tab 下面找到 password 了，如果为空就生成一个
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_794FAEFB0B2845A072FAC4002EE4E459C17D9F497F3D1C6FA2D2CEA5A9DC0909_1468915018269_+2016-07-19+155401.jpg)
+
+##### Gerrit Login Password
+
+就是你的登陆密码，而不是上一个方法里面的页面密码
+
+这种密码虽然直接，但是降低了一定的安全性
+
+#### Final 
 
 接下来把 password 填在 gitlab new project 页面正确地方，就可以 create 了
 
@@ -212,6 +228,8 @@ https://username:password@gitlab.company.com/group/project.git
 就可以在 Gitlab 上面出现你的项目了
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_794FAEFB0B2845A072FAC4002EE4E459C17D9F497F3D1C6FA2D2CEA5A9DC0909_1468915263380_+2016-07-19+160029.jpg)
+
+#### PS
 
 其实中间说到是最后要拼凑成下面的形式，而除了 password，其他的都是有本地就可以找到的
 https://username:password@gitlab.company.com/group/project.git

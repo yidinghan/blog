@@ -16,7 +16,6 @@ JSConf China（JavaScript 中国开发者大会）是一个为期两天的以技
     * [How to build a compiler](#how-to-build-a-compiler)
     * [聊聊 JS 测试框架](#聊聊-js-测试框架)
     * [Learning design patterns from modern JavaScript frameworks](#learning-design-patterns-from-modern-javascript-frameworks)
-* [](#)
 * [devops](#devops)
     * [面向未来的自动化测试-Macaca](#面向未来的自动化测试-macaca)
 * [其他](#其他)
@@ -353,7 +352,6 @@ github
 **link**
 slice
 
-# 
 # devops
 ## 面向未来的自动化测试-Macaca
 

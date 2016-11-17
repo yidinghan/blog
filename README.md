@@ -2,6 +2,60 @@
 
 常用工具列表，包括 Cli（命令行），Development（开发），Efficiency（效率），life（生活）
 
+# Table of Content
+
+<!-- vim-markdown-toc GFM -->
+* [Cli](#cli)
+    * [zsh-autosuggestions](#zsh-autosuggestions)
+            * [Screenshot](#screenshot)
+            * [What can it do?](#what-can-it-do)
+            * [Link](#link)
+    * [autojump](#autojump)
+            * [Screenshot](#screenshot-1)
+            * [What can it do?](#what-can-it-do-1)
+            * [Link](#link-1)
+    * [fzf](#fzf)
+            * [Screenshot](#screenshot-2)
+            * [What can it do?](#what-can-it-do-2)
+            * [Link](#link-2)
+    * [ag](#ag)
+            * [Screenshot](#screenshot-3)
+            * [What can it do?](#what-can-it-do-3)
+            * [Link](#link-3)
+* [Development](#development)
+    * [iTerm](#iterm)
+            * [Screenshot](#screenshot-4)
+            * [What can it do?](#what-can-it-do-4)
+            * [Link](#link-4)
+    * [Dash](#dash)
+            * [Screenshot](#screenshot-5)
+            * [What can it do?](#what-can-it-do-5)
+            * [Link](#link-5)
+* [Efficiency](#efficiency)
+    * [CmdTap](#cmdtap)
+            * [Screenshot](#screenshot-6)
+            * [What can it do?](#what-can-it-do-6)
+            * [Link](#link-6)
+    * [Paste](#paste)
+            * [Screenshot](#screenshot-7)
+            * [What can it do?](#what-can-it-do-7)
+            * [Link](#link-7)
+    * [1Password](#1password)
+            * [What can it do?](#what-can-it-do-8)
+            * [Link](#link-8)
+    * [Alfred](#alfred)
+            * [What can it do?](#what-can-it-do-9)
+            * [Link](#link-9)
+* [Life](#life)
+    * [Fantastical](#fantastical)
+            * [What can it do?](#what-can-it-do-10)
+            * [Link](#link-10)
+    * [OmniFoucs](#omnifoucs)
+            * [What can it do?](#what-can-it-do-11)
+            * [Link](#link-11)
+
+<!-- vim-markdown-toc -->
+
 ## Cli
 
 ### zsh-autosuggestions

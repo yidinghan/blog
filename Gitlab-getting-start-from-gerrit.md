@@ -8,6 +8,33 @@
 - Gitlab 比 Gerrit 好？
 - Gitlab 怎么玩？
 
+# Table of Content
+
+<!-- vim-markdown-toc GFM -->
+* [Gitlab 都有什么？](#gitlab-都有什么)
+        * [Powerful Code Review](#powerful-code-review)
+        * [活动信息流](#活动信息流)
+        * [代码文件浏览](#代码文件浏览)
+        * [严格的权限隔离](#严格的权限隔离)
+        * [小结](#小结)
+* [Gitlab 比 Gerrit 好？](#gitlab-比-gerrit-好)
+        * [Gitlab 更偏向分支开发](#gitlab-更偏向分支开发)
+        * [Gitlab 有团队或项目为单位的权限管理](#gitlab-有团队或项目为单位的权限管理)
+        * [Gitlab 能以 MR/PR 为代码审核单元](#gitlab-能以-mrpr-为代码审核单元)
+        * [Gitlab 自家非常易用的 CI](#gitlab-自家非常易用的-ci)
+* [Gitlab 怎么玩？](#gitlab-怎么玩)
+        * [项目迁移](#项目迁移)
+        * [项目权限](#项目权限)
+        * [Git Flow + Merge Request](#git-flow--merge-request)
+        * [Code Review](#code-review)
+                * [Merge Request Code Review](#merge-request-code-review)
+                * [Commit Code Review](#commit-code-review)
+        * [Gitlab CI Runner](#gitlab-ci-runner)
+            * [配置简单](#配置简单)
+            * [功能强大](#功能强大)
+            * [结合紧密](#结合紧密)
+
+<!-- vim-markdown-toc -->
 
 # Gitlab 都有什么？
 

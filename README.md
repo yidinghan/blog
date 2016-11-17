@@ -7,52 +7,52 @@
 <!-- vim-markdown-toc GFM -->
 * [Cli](#cli)
     * [zsh-autosuggestions](#zsh-autosuggestions)
-            * [Screenshot](#screenshot)
-            * [What can it do?](#what-can-it-do)
-            * [Link](#link)
+        * [Screenshot](#screenshot)
+        * [What can it do?](#what-can-it-do)
+        * [Link](#link)
     * [autojump](#autojump)
-            * [Screenshot](#screenshot-1)
-            * [What can it do?](#what-can-it-do-1)
-            * [Link](#link-1)
+        * [Screenshot](#screenshot-1)
+        * [What can it do?](#what-can-it-do-1)
+        * [Link](#link-1)
     * [fzf](#fzf)
-            * [Screenshot](#screenshot-2)
-            * [What can it do?](#what-can-it-do-2)
-            * [Link](#link-2)
+        * [Screenshot](#screenshot-2)
+        * [What can it do?](#what-can-it-do-2)
+        * [Link](#link-2)
     * [ag](#ag)
-            * [Screenshot](#screenshot-3)
-            * [What can it do?](#what-can-it-do-3)
-            * [Link](#link-3)
+        * [Screenshot](#screenshot-3)
+        * [What can it do?](#what-can-it-do-3)
+        * [Link](#link-3)
 * [Development](#development)
     * [iTerm](#iterm)
-            * [Screenshot](#screenshot-4)
-            * [What can it do?](#what-can-it-do-4)
-            * [Link](#link-4)
+        * [Screenshot](#screenshot-4)
+        * [What can it do?](#what-can-it-do-4)
+        * [Link](#link-4)
     * [Dash](#dash)
-            * [Screenshot](#screenshot-5)
-            * [What can it do?](#what-can-it-do-5)
-            * [Link](#link-5)
+        * [Screenshot](#screenshot-5)
+        * [What can it do?](#what-can-it-do-5)
+        * [Link](#link-5)
 * [Efficiency](#efficiency)
     * [CmdTap](#cmdtap)
-            * [Screenshot](#screenshot-6)
-            * [What can it do?](#what-can-it-do-6)
-            * [Link](#link-6)
+        * [Screenshot](#screenshot-6)
+        * [What can it do?](#what-can-it-do-6)
+        * [Link](#link-6)
     * [Paste](#paste)
-            * [Screenshot](#screenshot-7)
-            * [What can it do?](#what-can-it-do-7)
-            * [Link](#link-7)
+        * [Screenshot](#screenshot-7)
+        * [What can it do?](#what-can-it-do-7)
+        * [Link](#link-7)
     * [1Password](#1password)
-            * [What can it do?](#what-can-it-do-8)
-            * [Link](#link-8)
+        * [What can it do?](#what-can-it-do-8)
+        * [Link](#link-8)
     * [Alfred](#alfred)
-            * [What can it do?](#what-can-it-do-9)
-            * [Link](#link-9)
+        * [What can it do?](#what-can-it-do-9)
+        * [Link](#link-9)
 * [Life](#life)
     * [Fantastical](#fantastical)
-            * [What can it do?](#what-can-it-do-10)
-            * [Link](#link-10)
+        * [What can it do?](#what-can-it-do-10)
+        * [Link](#link-10)
     * [OmniFoucs](#omnifoucs)
-            * [What can it do?](#what-can-it-do-11)
-            * [Link](#link-11)
+        * [What can it do?](#what-can-it-do-11)
+        * [Link](#link-11)
 
 <!-- vim-markdown-toc -->
 
@@ -62,16 +62,16 @@
 
 History Command Finder
 
-##### Screenshot
+#### Screenshot
 
 ![autosuggestions](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/autosuggestions.png)
 
-##### What can it do?
+#### What can it do?
 
  * quick cmd
  * recently cmd reused
-  
-##### Link
+
+#### Link
 
 [Home Page](https://github.com/zsh-users/zsh-autosuggestions)
 
@@ -79,15 +79,15 @@ History Command Finder
 
 Directories Navigate
 
-##### Screenshot
+#### Screenshot
 
 ![autojump](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/autojump.png)
 
-##### What can it do?
+#### What can it do?
 
   * Stroger cd cmd
 
-##### Link
+#### Link
 
   * [Home Page](https://github.com/wting/autojump)
 
@@ -95,32 +95,32 @@ Directories Navigate
 
 History Command Finder
 
-##### Screenshot
+#### Screenshot
 
 ![fzf](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/fzf.png)
 
-##### What can it do?
+#### What can it do?
 
  * Quick cmd
  * history cmd reused
 
-##### Link
+#### Link
 
  * [Home Page](https://github.com/junegunn/fzf)
 
 ### ag
 
-##### Screenshot
+#### Screenshot
 
 ![ag](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/ag.png)
 
 Code-Searching
 
-##### What can it do?
+#### What can it do?
 
  * Search every file in current directory
 
-##### Link
+#### Link
 
  * [Home Page](https://github.com/ggreer/the_silver_searcher)
 
@@ -130,7 +130,7 @@ Code-Searching
 
 Terminal
 
-##### Screenshot
+#### Screenshot
 
 ![split_panes_full](https://www.iterm2.com/img/screenshots/split_panes_full.png)
 
@@ -140,14 +140,14 @@ Terminal
 
 ![256colors](https://www.iterm2.com/img/screenshots/256colors.png)
 
-##### What can it do?
+#### What can it do?
 
  * split panel
  * strong finder
  * zsh
  * etc
 
-##### Link
+#### Link
 
  * [Home Page](https://www.iterm2.com/)
  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
@@ -156,7 +156,7 @@ Terminal
 
 Documents Browser
 
-##### Screenshot
+#### Screenshot
 
 ![dash-s1](https://kapeli.com/img/dash-s1.png)
 
@@ -164,11 +164,11 @@ Documents Browser
 
 ![dash-s3](https://kapeli.com/img/dash-s3.png)
 
-##### What can it do?
+#### What can it do?
 
  * search offline documentation
 
-##### Link
+#### Link
 
  * [Home Page](https://kapeli.com/dash/)
  * [Docsets list](https://kapeli.com/docset_links)
@@ -179,7 +179,7 @@ Documents Browser
 
 Task Switcher
 
-##### Screenshot
+#### Screenshot
 
 ![cmdtap](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/cmdtap.png)
 
@@ -187,11 +187,11 @@ Task Switcher
 
 ![cmdtap-3](http://www.yingdev.com/Content/Projects/CmdTap/Images/3.gif)
 
-##### What can it do?
+#### What can it do?
 
- * Switcher tasks without thinking 
+ * Switcher tasks without thinking
 
-##### Link
+#### Link
 
  * [Home Page](http://www.yingdev.com/projects/cmdtap/)
 
@@ -199,18 +199,18 @@ Task Switcher
 
 Stronger Clipboard
 
-##### Screenshot
+#### Screenshot
 
 ![paste1](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/paste1.png)
 
 ![paste2](https://raw.githubusercontent.com/yidinghan/tools/master/imgs/paste2.png)
 
-##### What can it do?
+#### What can it do?
 
  * Stores everything you copy
- * Extends your system clipboard 
+ * Extends your system clipboard
 
-##### Link
+#### Link
 
  * [Home Page](http://pasteapp.me/)
 
@@ -218,13 +218,13 @@ Stronger Clipboard
 
 Password Manager
 
-##### What can it do?
+#### What can it do?
 
  * Store all your passwords
  * Change weak or duplicate passwords
  * Save time on the web by signing
 
-##### Link
+#### Link
 
  * [Home Page](https://1password.com/)
 
@@ -232,13 +232,13 @@ Password Manager
 
 Searcher and Workflow
 
-##### What can it do?
+#### What can it do?
 
  * Search and Browse
  * Extend and Automate
  * Powerpack
 
-##### Link
+#### Link
 
  * [Home Page](https://www.alfredapp.com/)
 
@@ -248,7 +248,7 @@ Searcher and Workflow
 
 The Best Calendar
 
-##### What can it do?
+#### What can it do?
 
  * Reminder
  * Event
@@ -256,7 +256,7 @@ The Best Calendar
  * Calendar sets
  * Mini window
 
-##### Link
+#### Link
 
  * [Home Page](https://flexibits.com/fantastica/)
 
@@ -264,13 +264,13 @@ The Best Calendar
 
 The Best Task Management
 
-##### What can it do?
+#### What can it do?
 
  * GTD
  * Project
  * Quick Entry
 
-##### Link
+#### Link
 
  * [Home Page](https://www.omnigroup.com/omnifocus/)
 

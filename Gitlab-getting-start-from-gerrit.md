@@ -347,8 +347,6 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
     
     test_feature_develop:
         script:
-            - npm config set registry http://registry_npm.gf.com.cn
-            - echo 10.2.86.104 registry_npm.gf.com.cn >> /etc/hosts
             - npm i --ignore-scripts
             - npm run test:ci
         stage: test

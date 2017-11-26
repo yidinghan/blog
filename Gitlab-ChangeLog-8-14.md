@@ -18,11 +18,11 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 ## 先配置生效
 
-![prevent merge until review is done 4](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-4.jpg)
+![prevent merge until review is done 4](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-6.jpg)
 
 ## 效果如下
 
-![prevent merge until review is done 3](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-3.jpg)
+![prevent merge until review is done 3](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-7.jpg)
 
 官方文档，[在这里](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-discussions-are-resolved)
 

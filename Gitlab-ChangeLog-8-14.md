@@ -18,7 +18,7 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 ## 先配置生效
 
-![prevent merge until review is done 1](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-1.jpg)
+![prevent merge until review is done 4](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-4.jpg)
 
 ## 效果如下
 

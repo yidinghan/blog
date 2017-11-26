@@ -7,3 +7,6 @@
  - [GitLab ChangeLog 8.11](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-11.md) - Gitlab ChangeLog 8.11
  - [GitLab ChangeLog 8.12](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md) - Gitlab ChangeLog 8.12
  - [GitLab ChangeLog 8.13](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-13.md) - Gitlab ChangeLog 8.13
+ - [GitLab ChangeLog 8.14](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-14.md) - Gitlab ChangeLog 8.14
+ - [GitLab ChangeLog 8.15](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-15.md) - Gitlab ChangeLog 8.53
+ - [GitLab ChangeLog 8.16](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-16.md) - Gitlab ChangeLog 8.16

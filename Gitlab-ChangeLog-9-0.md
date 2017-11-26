@@ -1,5 +1,12 @@
 Release Article: https://about.gitlab.com/2017/03/22/gitlab-9-0-released/
 
+<!-- TOC -->
+
+- [Subgroups](#subgroups)
+- [GitLab CI](#gitlab-ci)
+
+<!-- /TOC -->
+
 # Subgroups
 
 在这之前，都是一个 Group 下辖多个 repos

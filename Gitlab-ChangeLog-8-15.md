@@ -5,15 +5,16 @@ Link:
 
 <!-- TOC -->
 
-- [Web Terminal](#web-terminal)
+- [Auto Deploy](#auto-deploy)
 - [Manual Actions from the Pipeline Graph](#manual-actions-from-the-pipeline-graph)
   - [`.gitlab-ci.yml` 文件开启手动选项](#gitlab-ciyml-文件开启手动选项)
   - [Pipeline Graph 效果如下](#pipeline-graph-效果如下)
 
 <!-- /TOC -->
 
-# Web Terminal
-maybe use with k8s services config, let try it later
+# Auto Deploy
+
+这个特性比较大，再找时间啦
 
 # Manual Actions from the Pipeline Graph
 

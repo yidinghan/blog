@@ -17,6 +17,8 @@ Link:
 
 ![introduce-a-new-mergeslash-command-for-merge-requests](http://om4h4iqhe.bkt.clouddn.com/introduce-a-new-mergeslash-command-for-merge-requests-1.gif)
 
+更多的的 slash 命令，[在这里](https://docs.gitlab.com/ee/user/project/slash_commands.html)
+
 # Storage statistics
 
 作为管理者，可以通过这一特性，查看某一个 Group 或者一个 repo 所占用的磁盘大小啦

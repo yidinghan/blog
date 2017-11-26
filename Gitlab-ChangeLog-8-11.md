@@ -1,4 +1,4 @@
-release article: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
+Release Article: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
 
 <!-- TOC -->
 

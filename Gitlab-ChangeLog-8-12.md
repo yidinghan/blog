@@ -1,4 +1,13 @@
-Link: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
+Release Article: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
+
+<!-- TOC -->
+
+- [Cycle Analytics](#cycle-analytics)
+- [Merge Request Versions](#merge-request-versions)
+- [Bulk update Merge Requests](#bulk-update-merge-requests)
+- [Submodules in CI](#submodules-in-ci)
+
+<!-- /TOC -->
 
 # Cycle Analytics
 一个关于功能特性，生命周期的跟踪统计功能。从图片中也可以看得出来，从 issue 到 production，一个 特性平均都花了多少时间。从中可以发现那个阶段花的时间多，那个阶段可以改进。

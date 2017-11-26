@@ -1,5 +1,15 @@
 Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
+<!-- TOC -->
+
+- [Prevent merge until Review is done](#prevent-merge-until-review-is-done)
+  - [先配置生效](#先配置生效)
+  - [效果如下](#效果如下)
+- [Delete all Merged Branches](#delete-all-merged-branches)
+- [Support for private container registries in GitLab CI builds](#support-for-private-container-registries-in-gitlab-ci-builds)
+
+<!-- /TOC -->
+
 # Prevent merge until Review is done
 
 除了在 MR 上用 WIP 可以避免被合并，还可以通过这个选项来保证，在全部的讨论被解决之前 MR 被合并。

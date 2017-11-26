@@ -42,7 +42,7 @@ const parseArgv = () => {
     assert(issueID, 'issueID is empty');
 
     const un = process.env['un'];
-    assert(un, 'u` is empty');
+    assert(un, 'un is empty');
 
     const pw = process.env['pw'];
     assert(pw, 'pw is empty');

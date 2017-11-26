@@ -22,7 +22,7 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 ## 效果如下
 
-![prevent merge until review is done 2](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-2.jpg)
+![prevent merge until review is done 2](http://om4h4iqhe.bkt.clouddn.com/prevent-merge-until-review-is-done-3.jpg)
 
 官方文档，[在这里](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-discussions-are-resolved)
 

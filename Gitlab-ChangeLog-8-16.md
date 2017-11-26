@@ -15,7 +15,7 @@ Link:
 
 通过这个特性，可以直接在评论框里面进行 MR 合并了，效果如下
 
-![introduce-a-new-mergeslash-command-for-merge-requests](http://om4h4iqhe.bkt.clouddn.com/introduce-a-new-mergeslash-command-for-merge-requests.gif)
+![introduce-a-new-mergeslash-command-for-merge-requests](http://om4h4iqhe.bkt.clouddn.com/introduce-a-new-mergeslash-command-for-merge-requests-1.gif)
 
 # Storage statistics
 

@@ -30,7 +30,7 @@ Gitlab 的这一特性可以很好帮助提交者，快速预览冲突，解决�
 
 通过这一个特性，不仅把可以记录下来都有哪些 issues 曾经闪现，还可以有像 todo list 一样的功能。
 
-![Resolve Discussions in MRs](https://d2mxuefqeaa7sj.cloudfront.net/s_85F34ADB9E924A52412CEB4174E6A4CBD2B95E5D103DDA710B270CC1C1057DA5_1488349952011_mr-comment-resolve.gif)
+![Resolve Discussions in MRs](http://om4h4iqhe.bkt.clouddn.com/mr-comment-resolve.gif)
 
 更多细节，可看官方文档
 
@@ -49,7 +49,7 @@ Gitlab 的这一特性可以很好帮助提交者，快速预览冲突，解决�
  - `.gitlab/issue_templates`
  - `.gitlab/merge_request_templates`
 
-![Issue and MR Templates](https://d2mxuefqeaa7sj.cloudfront.net/s_85F34ADB9E924A52412CEB4174E6A4CBD2B95E5D103DDA710B270CC1C1057DA5_1488347297884_issue-tpl.gif)
+![Issue and MR Templates](http://om4h4iqhe.bkt.clouddn.com/issue-tpl.gif)
 
 更多细节，可看官方文档
 

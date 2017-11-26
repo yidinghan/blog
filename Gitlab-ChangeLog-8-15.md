@@ -10,4 +10,4 @@ maybe use with k8s services config, let try it later
 
 对于 gitlab ci 配置项里面开启了手动启动选项的那些 job，现在可以直接在 Pipeline Graph 里面进行操作了
 
-![manual-actions-from-the-pipeline-graph](http://om4h4iqhe.bkt.clouddn.com/manual-actions-from-the-pipeline-graph.png)
+![manual-actions-from-the-pipeline-graph](http://om4h4iqhe.bkt.clouddn.com/manual-actions-from-the-pipeline-graph-1.png)

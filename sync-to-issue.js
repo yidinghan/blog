@@ -9,9 +9,11 @@ const config = {
     articleLinkPrefix: 'https://github.com/yidinghan/blog/blob/master/',
     filename: '',
     filepath: '',
-    issueID: 0,
-    issueTitle: '',
-    issueBody: '',
+    issue: {
+        id: 0,
+        title: '',
+        body: '',
+    },
     httpsOptions: {
         protocol: 'https:',
         host: 'api.github.com',
@@ -19,7 +21,7 @@ const config = {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json',
-            'User-Agent': 'Ding test',
+            'User-Agent': 'Ding Blog',
         },
     },
     user: {
@@ -47,8 +49,8 @@ const parseArgv = () => {
 
     config.filename = filename;
     config.filepath = filepath;
-    config.issueID = issueID;
-    config.issueTitle = filename.split('.')[0].replace(/-/g, ' ');
+    config.issue.id = issueID;
+    config.issue.title = filename.split('.')[0].replace(/-/g, ' ');
     config.user = { un, pw };
 };
 
@@ -57,13 +59,13 @@ const parseIssueBody = () => {
     const articleLink = config.articleLinkPrefix + config.filename;
     const refContent = `Article Reference [Link](${articleLink})`;
 
-    config.issueBody = [refContent, fileContent].join('\n\n');
+    config.issue.body = [refContent, fileContent].join('\n\n');
 };
 
 const parseHttpOptions = () => {
     config.httpsOptions = Object.assign(
         {
-            path: config.urls.updateIssue + String(config.issueID),
+            path: config.urls.updateIssue + String(config.issue.id),
             auth: `${config.user.un}:${config.user.pw}`,
         },
         config.httpsOptions
@@ -87,8 +89,8 @@ const makeRequest = callback => {
     });
 
     const body = {
-        title: config.issueTitle,
-        body: config.issueBody,
+        title: config.issue.title,
+        body: config.issue.body,
     };
     req.write(JSON.stringify(body));
 

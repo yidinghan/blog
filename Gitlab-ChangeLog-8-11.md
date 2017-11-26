@@ -1,5 +1,17 @@
 release article: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
 
+<!-- TOC -->
+
+- [Issue Board](#issue-board)
+- [Merge Conflict Resolution](#merge-conflict-resolution)
+- [Resolve Discussions in MRs](#resolve-discussions-in-mrs)
+- [Pipelines Graph](#pipelines-graph)
+- [Issue and MR Templates](#issue-and-mr-templates)
+- [Slash Commands](#slash-commands)
+- [Expiration date on Memberships](#expiration-date-on-memberships)
+
+<!-- /TOC -->
+
 # Issue Board
 
 Issue board 提供了近似 Trello 一样的面板

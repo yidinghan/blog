@@ -1,5 +1,15 @@
 Link: https://about.gitlab.com/2016/10/22/gitlab-8-13-released/
 
+<!-- TOC -->
+
+- [New Issue from the Issue Board](#new-issue-from-the-issue-board)
+- [Merge Conflict Editor](#merge-conflict-editor)
+- [Group Labels](#group-labels)
+- [Pipelines for Commits](#pipelines-for-commits)
+- [Debug tracing for CI](#debug-tracing-for-ci)
+
+<!-- /TOC -->
+
 # New Issue from the Issue Board
 可以直接在 issue board 里面直接创建 issue，而不用在 issue page 创建之后再来 issue baord 里面看
 

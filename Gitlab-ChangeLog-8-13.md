@@ -1,4 +1,4 @@
-Link: https://about.gitlab.com/2016/10/22/gitlab-8-13-released/
+Release Article: https://about.gitlab.com/2016/10/22/gitlab-8-13-released/
 
 <!-- TOC -->
 

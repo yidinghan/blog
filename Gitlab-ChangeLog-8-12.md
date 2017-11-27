@@ -6,6 +6,7 @@ Release Article: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
 - [Merge Request Versions](#merge-request-versions)
 - [Bulk update Merge Requests](#bulk-update-merge-requests)
 - [Submodules in CI](#submodules-in-ci)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
@@ -47,3 +48,8 @@ Release Article: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
 使用相对路径，可以非常方便的使用 CI 触发着一样的权限。
 
 更多细节，可看官方文档
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-11](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-11.md)
+ - 下一篇: [Gitlab-ChangeLog-8-13](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-13.md)

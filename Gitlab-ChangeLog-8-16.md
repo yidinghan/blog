@@ -24,3 +24,8 @@ Link:
 作为管理者，可以通过这一特性，查看某一个 Group 或者一个 repo 所占用的磁盘大小啦
 
 ![storage-statistics](http://om4h4iqhe.bkt.clouddn.com/storage-statistics.jpg)
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-14](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-14.md)
+ - 下一篇: [Gitlab-ChangeLog-9-0](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-0.md)

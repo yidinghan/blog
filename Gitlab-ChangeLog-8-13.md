@@ -7,6 +7,7 @@ Release Article: https://about.gitlab.com/2016/10/22/gitlab-8-13-released/
 - [Group Labels](#group-labels)
 - [Pipelines for Commits](#pipelines-for-commits)
 - [Debug tracing for CI](#debug-tracing-for-ci)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
@@ -51,3 +52,8 @@ test_async:
 下图是加了 CI_DEBUG_TRACE 的信息输出
 
 ![ci-debug-output](http://om4h4iqhe.bkt.clouddn.com/ci-debug-output.jpg)
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md)
+ - 下一篇: [Gitlab-ChangeLog-8-14](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-14.md)

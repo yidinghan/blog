@@ -4,12 +4,13 @@ Release Article: https://about.gitlab.com/2017/03/22/gitlab-9-0-released/
 
 - [Subgroups](#subgroups)
 - [GitLab CI](#gitlab-ci)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
 # Subgroups
 
-在这之前，都是一个 Group 下辖多个 repos
+在这之前，都是一个 group 下辖多个 repos
 
 对于项目组人少的情况还好处理，如果遇上 10+ 以上的团队，这种模式可能就有点捉襟见肘了，往往需用开多个 group
 
@@ -44,3 +45,8 @@ Release Article: https://about.gitlab.com/2017/03/22/gitlab-9-0-released/
 | `CI_BUILD_TOKEN`     | `CI_JOB_TOKEN`          |
 
 更多变量名相关的信息，[在这里](https://docs.gitlab.com/ce/ci/variables/)
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-16](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-16.md)
+ - 下一篇: [Gitlab-ChangeLog-9-1](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-1.md)

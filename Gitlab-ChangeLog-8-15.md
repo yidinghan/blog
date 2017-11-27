@@ -9,6 +9,7 @@ Link:
 - [Manual Actions from the Pipeline Graph](#manual-actions-from-the-pipeline-graph)
   - [`.gitlab-ci.yml` 文件开启手动选项](#gitlab-ciyml-文件开启手动选项)
   - [Pipeline Graph 效果如下](#pipeline-graph-效果如下)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
@@ -32,3 +33,8 @@ deploy.pvsub.master.prod:
 ## Pipeline Graph 效果如下
 
 ![manual-actions-from-the-pipeline-graph](http://om4h4iqhe.bkt.clouddn.com/manual-actions-from-the-pipeline-graph-1.png)
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-14](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-14.md)
+ - 下一篇: [Gitlab-ChangeLog-8-16](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-16.md)

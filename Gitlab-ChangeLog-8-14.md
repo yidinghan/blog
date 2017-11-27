@@ -7,6 +7,7 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
   - [效果如下](#效果如下)
 - [Delete all Merged Branches](#delete-all-merged-branches)
 - [Support for private container registries in GitLab CI builds](#support-for-private-container-registries-in-gitlab-ci-builds)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
@@ -54,3 +55,8 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 眼熟的就会发现，这其实就是 `~/.docker/config.json` 文件
 
 官方文档，[在这里](https://docs.gitlab.com/runner/configuration/advanced-configuration.html#using-a-private-container-registry)
+
+# The End
+
+ - 上一篇: [Gitlab-ChangeLog-8-13](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-13.md)
+ - 下一篇: [Gitlab-ChangeLog-8-15](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-15.md)

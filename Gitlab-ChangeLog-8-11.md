@@ -9,6 +9,7 @@ Release Article: https://about.gitlab.com/2016/08/22/gitlab-8-11-released/
 - [Issue and MR Templates](#issue-and-mr-templates)
 - [Slash Commands](#slash-commands)
 - [Expiration date on Memberships](#expiration-date-on-memberships)
+- [The End](#the-end)
 
 <!-- /TOC -->
 
@@ -82,3 +83,7 @@ Gitlab 的这一特性可以很好帮助提交者，快速预览冲突，解决�
 现在有了这一个功能之后，可以设置权限过期日期，再也不用担心了。
 
 ![Expiration date on Memberships](http://om4h4iqhe.bkt.clouddn.com/expiration-on-menbership.gif)
+
+# The End
+
+ - 下一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md)

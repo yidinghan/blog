@@ -55,5 +55,5 @@ test_async:
 
 # The End
 
- - 上一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md)
- - 下一篇: [Gitlab-ChangeLog-8-14](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-14.md)
+ - 上一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/issues/6)
+ - 下一篇: [Gitlab-ChangeLog-8-14](https://github.com/yidinghan/blog/issues/8)

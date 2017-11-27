@@ -86,4 +86,4 @@ Gitlab 的这一特性可以很好帮助提交者，快速预览冲突，解决�
 
 # The End
 
- - 下一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md)
+ - 下一篇: [Gitlab-ChangeLog-8-12](https://github.com/yidinghan/blog/issues/6)

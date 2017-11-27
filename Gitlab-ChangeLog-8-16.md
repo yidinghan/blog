@@ -27,5 +27,5 @@ Link:
 
 # The End
 
- - 上一篇: [Gitlab-ChangeLog-8-15](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-15.md)
- - 下一篇: [Gitlab-ChangeLog-9-0](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-0.md)
+ - 上一篇: [Gitlab-ChangeLog-8-15](https://github.com/yidinghan/blog/issues/9)
+ - 下一篇: [Gitlab-ChangeLog-9-0](https://github.com/yidinghan/blog/issues/11)

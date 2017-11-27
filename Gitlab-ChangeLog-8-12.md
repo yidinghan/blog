@@ -51,5 +51,5 @@ Release Article: https://about.gitlab.com/2016/09/22/gitlab-8-12-released/
 
 # The End
 
- - 上一篇: [Gitlab-ChangeLog-8-11](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-11.md)
- - 下一篇: [Gitlab-ChangeLog-8-13](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-13.md)
+ - 上一篇: [Gitlab-ChangeLog-8-11](https://github.com/yidinghan/blog/issues/5)
+ - 下一篇: [Gitlab-ChangeLog-8-13](https://github.com/yidinghan/blog/issues/7)

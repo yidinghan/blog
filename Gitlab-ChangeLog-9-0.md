@@ -48,5 +48,5 @@ Release Article: https://about.gitlab.com/2017/03/22/gitlab-9-0-released/
 
 # The End
 
- - 上一篇: [Gitlab-ChangeLog-8-16](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-16.md)
- - 下一篇: [Gitlab-ChangeLog-9-1](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-1.md)
+ - 上一篇: [Gitlab-ChangeLog-8-16](https://github.com/yidinghan/blog/issues/10)
+ - 下一篇: [Gitlab-ChangeLog-9-1](https://github.com/yidinghan/blog/issues/12)

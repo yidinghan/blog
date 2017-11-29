@@ -12,7 +12,9 @@ Release Article: https://about.gitlab.com/2017/04/22/gitlab-9-1-released/
 
 通过 discussions 这个特性，可以很好的把一个副主题的讨论聚合起来展示，而不影响主时间线
 
-![discussions-in-merge-requests-and-issues]()
+![discussions-in-merge-requests-and-issues-1](https://about.gitlab.com/images/9_1/merge_request_resolvable_discussion.png)
+
+![discussions-in-merge-requests-and-issues-2](http://om4h4iqhe.bkt.clouddn.com/discussions-in-merge-requests-and-issues-2.jpg)
 
 # Scheduled Pipelines Triggers
 # Pipeline mini-graph added to Commit View 

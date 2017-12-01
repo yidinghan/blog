@@ -32,6 +32,10 @@ Release Article: https://about.gitlab.com/2017/04/22/gitlab-9-1-released/
 
 # Pipeline mini-graph added to Commit View 
 
+在 commit 详细页面，也能够看到对应 pipelines 的缩略图了
+
+![pipeline-mini-graph-added-to-commit-view](https://about.gitlab.com/images/9_1/mini_graph.png)
+
 # The End
 
  - 上一篇: [Gitlab-ChangeLog-9-0](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-0.md)

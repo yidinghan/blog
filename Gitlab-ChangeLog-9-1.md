@@ -1,5 +1,15 @@
 Release Article: https://about.gitlab.com/2017/04/22/gitlab-9-1-released/
 
+<!-- TOC -->
+
+- [Discussions in Merge Requests and Issues](#discussions-in-merge-requests-and-issues)
+- [Scheduled Pipelines Triggers](#scheduled-pipelines-triggers)
+  - [PS](#ps)
+- [Pipeline mini-graph added to Commit View](#pipeline-mini-graph-added-to-commit-view)
+- [The End](#the-end)
+
+<!-- /TOC -->
+
 # Discussions in Merge Requests and Issues
 
 以往再 issues 或者 merge requests 下的评论，都是类似论坛一样的。

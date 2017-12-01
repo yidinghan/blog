@@ -3,7 +3,6 @@ Release Article: https://about.gitlab.com/2017/06/22/gitlab-9-3-released/
 <!-- TOC -->
 
 - [Edit Issue Description Inline, Without Losing Context](#edit-issue-description-inline-without-losing-context)
-- [Snippet Descriptions](#snippet-descriptions)
 - [Autolinking Package Names](#autolinking-package-names)
 - [The End](#the-end)
 
@@ -19,8 +18,25 @@ Release Article: https://about.gitlab.com/2017/06/22/gitlab-9-3-released/
 
 ![edit-issue-description-inline](http://om4h4iqhe.bkt.clouddn.com/edit-issue-description-inline.gif)
 
-# Snippet Descriptions
 # Autolinking Package Names
+
+就是当你在看一个项目依赖的时候，会根据一定规则，帮每个依赖包做一个链接
+
+通过这个链接，很方便的就可以直接去到包对应的介绍页面
+
+下面是官方的支持列表
+
+ - `*.gemspec` (Ruby)
+ - `package.json` (Node.js)
+ - `composer.json` (PHP)
+ - `Podfile` (Objective-C)
+ - `*.podspec` (Objective-C)
+ - `*.podspec.json` (Objective-C)
+ - `Cartfile` (Objective-C)
+ - `Godeps.json` (Go)
+ - `requirements.txt` (Python)
+
+![autolinking-package-names](http://om4h4iqhe.bkt.clouddn.com/autolinking-package-names.gif)
 
 # The End
 

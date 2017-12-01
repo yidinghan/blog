@@ -1,5 +1,14 @@
 Release Article: https://about.gitlab.com/2017/06/22/gitlab-9-3-released/
 
+<!-- TOC -->
+
+- [Edit Issue Description Inline, Without Losing Context](#edit-issue-description-inline-without-losing-context)
+- [Snippet Descriptions](#snippet-descriptions)
+- [Autolinking Package Names](#autolinking-package-names)
+- [The End](#the-end)
+
+<!-- /TOC -->
+
 # Edit Issue Description Inline, Without Losing Context
 
 如果 issue 内容因为讨论的内容发生变动，而在编辑的时候又因为跳页而没法查看原来的讨论内容

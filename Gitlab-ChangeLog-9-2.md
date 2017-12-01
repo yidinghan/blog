@@ -34,6 +34,17 @@ Release Article: https://about.gitlab.com/2017/05/22/gitlab-9-2-released/
 
 # Failed Jobs Tab allows you to access to a summary of all the failures quickly
 
+以往发生了 pipeline 错误，都需要进到具体的 job 去看
+
+如果是多个 job 都崩了，一个个看还需要切换上下文，要不就是点开多个窗口
+
+有了这一特性
+
+ - 直接展示最后几行，往往最后几行可以看得到错误信息啦
+ - 直接展示全部失败任务，一下总览，无需切换
+
+![failed-jobs-tab-allows-you-to-access-to-a-summary-of-all-the-failures-quickly](https://about.gitlab.com/images/9_2/failed_jobs_tab.png)
+
 # The End
 
  - 上一篇: [Gitlab-ChangeLog-9-1](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-1.md)

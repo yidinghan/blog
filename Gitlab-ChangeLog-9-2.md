@@ -1,5 +1,16 @@
 Release Article: https://about.gitlab.com/2017/05/22/gitlab-9-2-released/
 
+<!-- TOC -->
+
+- [Pipeline Schedules](#pipeline-schedules)
+- [Official GitLab installation on Kubernetes](#official-gitlab-installation-on-kubernetes)
+- [Create Merge Request from Issue](#create-merge-request-from-issue)
+- [Comments for Personal Snippets](#comments-for-personal-snippets)
+- [Failed Jobs Tab allows you to access to a summary of all the failures quickly](#failed-jobs-tab-allows-you-to-access-to-a-summary-of-all-the-failures-quickly)
+- [The End](#the-end)
+
+<!-- /TOC -->
+
 # Pipeline Schedules
 
 在 9.2 版本中，定时触发 pipeline 的特性成为了正式版。

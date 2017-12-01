@@ -17,6 +17,19 @@ Release Article: https://about.gitlab.com/2017/04/22/gitlab-9-1-released/
 ![discussions-in-merge-requests-and-issues-2](http://om4h4iqhe.bkt.clouddn.com/discussions-in-merge-requests-and-issues-2.jpg)
 
 # Scheduled Pipelines Triggers
+
+9.1 版本对 pipelines 的触发，引入了定时器，虽然还是 beta 版本
+
+配置方式还是经典的 cron 语法
+
+![scheduled-pipelines-triggers](https://about.gitlab.com/images/9_1/ci_schedule_trigger.png)
+
+## PS
+
+这里有一个网站 [crontab.guru](https://crontab.guru/) 可以更好理解 cron 语法
+
+![crontab-guru](http://om4h4iqhe.bkt.clouddn.com/crontab-guru.jpg)
+
 # Pipeline mini-graph added to Commit View 
 
 # The End

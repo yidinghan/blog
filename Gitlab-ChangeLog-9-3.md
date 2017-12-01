@@ -6,7 +6,7 @@ Release Article: https://about.gitlab.com/2017/06/22/gitlab-9-3-released/
 
 当然这个问题也可通过多开一个 tab 来解决，如果不用多开那可多好
 
-通过这一特性，直接在但前页面编辑 issue 内容，不用跳页，不用开 tab
+通过这一特性，直接在当前页面编辑 issue 内容，不用跳页，不用开 tab
 
 ![edit-issue-description-inline](http://om4h4iqhe.bkt.clouddn.com/edit-issue-description-inline.gif)
 

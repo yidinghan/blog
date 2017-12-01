@@ -27,6 +27,11 @@ Release Article: https://about.gitlab.com/2017/05/22/gitlab-9-2-released/
 结合之前的特性[合并历史版本对比](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-8-12.md#merge-request-versions)，可以从分支的第一个 push 开始溯源对比了
 
 # Comments for Personal Snippets
+
+这一特性也只是对标 [gist](http://gist.github.com/)，可以在每个代码片下面进行评论
+
+![comments-for-personal-snippets](http://om4h4iqhe.bkt.clouddn.com/comments-for-personal-snippets.jpg)
+
 # Failed Jobs Tab allows you to access to a summary of all the failures quickly
 
 # The End

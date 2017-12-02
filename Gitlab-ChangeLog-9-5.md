@@ -20,4 +20,4 @@ test:
 
 # The End
 
- - 上一篇: [Gitlab-ChangeLog-9-4](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-4.md)
+ - 上一篇: [Gitlab-ChangeLog-9-4](https://github.com/yidinghan/blog/issues/15)

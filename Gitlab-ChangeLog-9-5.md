@@ -1,16 +1,22 @@
 Release Article: https://about.gitlab.com/2017/08/22/gitlab-9-5-released/
 
-# Project Templates
+# Automatic Retry for Failed CI Jobs
 
-创建一个项目都是一空二白，而业务项目常常都可以使用从一个模版开始
+再次之前，job failed 只能通过手动去进行重试
 
-通过这一特性，可以不用创建后 mirror push 啦，直接从 kick-off 开始 coding
+偶尔一两次还好，多了也会是一件烦心事，特别是失败是一下通过重试就可以解决的问题的时候
 
-![project-templates](https://about.gitlab.com/images/9_5/project_templates.png)
+通过这一特性，配置一下，就可以远离这种烦恼啦
 
-# Automatic Retry for Failed CI Jobs 
+```yml
+test:
+  script: rspec
+  retry: 2
+```
 
 ![automatic-retry-for-failed-ci-jobs](https://about.gitlab.com/images/9_5/ci_retry.png)
+
+更多重试的介绍，[在这里](https://docs.gitlab.com/ee/ci/yaml/#retry)
 
 # The End
 

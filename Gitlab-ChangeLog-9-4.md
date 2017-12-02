@@ -25,6 +25,11 @@ Release Article: https://about.gitlab.com/2017/07/22/gitlab-9-4-released/
 只要配置的群组级别的 `DOCKER_AUTH_CONFIG` ，就可以在全部项目直接对私有的仓库 `docker pull/push` 了
 
 # Variables in Pipeline Schedules 
+
+有些变量想要在周期 pipeline 中特别配置的，就可以通过这个特性实现啦
+
+![variables-in-pipeline-schedules](https://about.gitlab.com/images/9_4/schedule_variables.png)
+
 # New Cache Policy for CI/CD Configuration 
 # Extended Docker Configuration for CI/CD 
 

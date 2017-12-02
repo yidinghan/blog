@@ -17,7 +17,6 @@ Release Article: https://about.gitlab.com/2017/07/22/gitlab-9-4-released/
 
 - 全局操作放在最上面一栏
 - 子界面的操作放在最左边
-  - 左边的操作栏还可以收起来
 
 ![new-navigation](https://about.gitlab.com/images/9_4/new_ui.png)
 

@@ -31,6 +31,18 @@ Release Article: https://about.gitlab.com/2017/07/22/gitlab-9-4-released/
 ![variables-in-pipeline-schedules](https://about.gitlab.com/images/9_4/schedule_variables.png)
 
 # New Cache Policy for CI/CD Configuration 
+
+对于 job 缓存，基本行为方式都是在开始的时候拉取下来，在结束的时候提交上去
+
+但是对于有些 job，是根本用不上提交缓存，或者是拉取缓存
+
+于是通过这两个 `.gitlab-ci.yml` 配置项，就可以减少 job 的运行时间，从而加速 pipeline 的执行
+
+- `policy: pull`: 只拉取缓存，不提交缓存
+- `policy: push`: 只提交缓存，不拉取缓存
+
+更多缓存策略说明，[在这里](http://docs.gitlab.com/ee/ci/yaml/#cache-policy)
+
 # Extended Docker Configuration for CI/CD 
 
 # The End

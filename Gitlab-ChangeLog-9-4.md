@@ -1,5 +1,16 @@
 Release Article: https://about.gitlab.com/2017/07/22/gitlab-9-4-released/
 
+<!-- TOC -->
+
+- [New Navigation](#new-navigation)
+- [Group-level Secret Variables](#group-level-secret-variables)
+- [Variables in Pipeline Schedules](#variables-in-pipeline-schedules)
+- [New Cache Policy for CI/CD Configuration](#new-cache-policy-for-cicd-configuration)
+- [Extended Docker Configuration for CI/CD](#extended-docker-configuration-for-cicd)
+- [The End](#the-end)
+
+<!-- /TOC -->
+
 # New Navigation
 
 全新的导览界面

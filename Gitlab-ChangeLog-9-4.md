@@ -45,6 +45,52 @@ Release Article: https://about.gitlab.com/2017/07/22/gitlab-9-4-released/
 
 # Extended Docker Configuration for CI/CD 
 
+使用 docker 作为 runner 的时候，不仅可以使用指定的镜像配置 image，还可以 services
+
+```yml
+image: "registry.example.com/my/image:latest"
+
+services:
+  - postgresql:9.4
+  - redis:latest
+```
+
+但是这还远远不够，有时有还会有一些不方便的地方
+
+- 想要针对这些镜像做一些启动配置，这是完全没入口的
+- 同一个镜像只能配置一个 services
+- 如果使用了私有镜像做 services，使用的地址 URL 还会有固定的转义规则
+  - 关于地址转义，官方文档[在这里](https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#accessing-the-services)
+
+这一版本中发布的特性，就可以解决这些问题
+
+- `image`:
+  - `name`: 镜像地址
+  - `entrypoint`: 就是 docker 的 entrypoint 参数
+- `services`:
+  - `name`: 镜像地址
+  - `alias`: service 的别名，最重要的用处，就是当你不想使用默认的转义地址的时候，可以在这里制定
+  - `entrypoint`: 就是 docker 的 entrypoint 参数
+  - `command`: 就是 docker 的 command 参数
+
+```yml
+image:
+  name: ruby:2.2
+  entrypoint: ["/bin/bash"]
+
+services:
+  - name: my-postgres:9.4
+    alias: db-postgres-old
+    entrypoint: ["/usr/local/bin/db-postgres"]
+    command: ["start"]
+  - name: my-postgres:9.5
+    alias: db-postgres-new
+    entrypoint: ["/usr/local/bin/db-postgres"]
+    command: ["start"]
+```
+
+更多 Docker 参数说明，[在这里](https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#extended-docker-configuration-options)
+
 # The End
 
  - 上一篇: [Gitlab-ChangeLog-9-3](https://github.com/yidinghan/blog/blob/master/Gitlab-ChangeLog-9-3.md)

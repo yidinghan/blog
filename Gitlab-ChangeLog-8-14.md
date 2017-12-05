@@ -57,6 +57,10 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 眼熟的就会发现，这其实就是 `~/.docker/config.json` 文件
 
+![private-container-registries-in-gitlab-ci](http://om4h4iqhe.bkt.clouddn.com/private-container-registries-in-gitlab-ci.jpg)
+
+感谢 [gedennis](https://github.com/gedennis) 提供的截图
+
 ## MacOS
 
 如果是 mac 系统，`docker login` 之后的 `~/.docker/config.json` 文件可能就没有 `auth` 这个数据啦，因为 `auth` 数据都存到 `keychain` 里面啦

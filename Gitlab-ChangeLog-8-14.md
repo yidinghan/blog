@@ -7,6 +7,7 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
   - [效果如下](#效果如下)
 - [Delete all Merged Branches](#delete-all-merged-branches)
 - [Support for private container registries in GitLab CI builds](#support-for-private-container-registries-in-gitlab-ci-builds)
+  - [MacOS](#macos)
 - [The End](#the-end)
 
 <!-- /TOC -->
@@ -42,6 +43,8 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 现在可以通过 `DOCKER_AUTH_CONFIG` 这个变量来减少这一操作，变量的格式如下，其中 `registry.example.com` 就是仓库的地址
 
+关键的就是 auth 数据，它是 base64 之后 `username:password`
+
 ```json
 {
     "auths": {
@@ -54,7 +57,45 @@ Release Article: https://about.gitlab.com/2016/11/22/gitlab-8-14-released/
 
 眼熟的就会发现，这其实就是 `~/.docker/config.json` 文件
 
-官方文档，[在这里](https://docs.gitlab.com/runner/configuration/advanced-configuration.html#using-a-private-container-registry)
+## MacOS
+
+如果是 mac 系统，`docker login` 之后的 `~/.docker/config.json` 文件可能就没有 `auth` 这个数据啦，因为 `auth` 数据都存到 `keychain` 里面啦
+
+```json
+{
+	"auths": {
+		"registry.example.com": {}
+	},
+	"credsStore": "osxkeychain"
+}
+```
+
+这时候就需要自己手动生成 `auth` 这个数据啦
+
+```sh
+   echo -n "my_username:my_password" | base64
+
+   # 就是这个数据
+   bXlfdXNlcm5hbWU6bXlfcGFzc3dvcmQ=
+```
+
+把这个数据放到 `auth` 下面就好啦
+
+```json
+{
+    "auths": {
+        "registry.example.com": {
+            "//": "就是放在这里 auth 下面就好啦",
+            "auth": "bXlfdXNlcm5hbWU6bXlfcGFzc3dvcmQ="
+        }
+    },
+    "credsStore": "osxkeychain"
+}
+```
+
+官方文档
+ - [在这里](https://docs.gitlab.com/runner/configuration/advanced-configuration.html#using-a-private-container-registry)
+ - [还有这里](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html#define-an-image-from-a-private-container-registry)
 
 # The End
 

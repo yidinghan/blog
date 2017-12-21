@@ -48,9 +48,12 @@ Google 翻译一下
 
 与 `find` 直接拿到结果集的方式不同，`cursor` 拿到的是一个指针，它指向结果集
 
-类似 es6 的 generator，你可以按需获取，逐步处理你的数据
+通过这个指针，你可以像 es6 的 generator，可以按需获取，逐步处理数据
 
-更多的信息，可以看官方的这一遍介绍，[Iterate a Cursor in the mongo Shell](https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/#read-operations-cursors)
+不过需要注意的是，cursor 一批一批的获取下一份数据，而非一个一个的去获取。
+关于每批次大小设置可以看这里，[batchSize](https://docs.mongodb.com/manual/reference/method/cursor.batchSize)
+
+更多的 `cursor` 信息，可以看官方的这一遍介绍，[Iterate a Cursor in the mongo Shell](https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/#read-operations-cursors)
 
 ## RxJS
 

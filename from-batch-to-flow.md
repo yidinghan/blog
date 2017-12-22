@@ -3,7 +3,11 @@
 - [从块处理到流处理](#从块处理到流处理)
 - [背景](#背景)
   - [Mongo Cursor](#mongo-cursor)
+    - [Examples](#examples)
+      - [使用 Stream Event 的模式](#使用-stream-event-的模式)
+      - [使用 Co Generator 的模式](#使用-co-generator-的模式)
   - [RxJS](#rxjs)
+    - [Examples](#examples-1)
 - [图解](#图解)
 - [代码](#代码)
 - [rx-mpaging](#rx-mpaging)
@@ -20,6 +24,7 @@
 * return
 
 于是不可避免的，每一步都会被前一步所阻塞，即使在 io 之上的 nodejs 亦是如此
+
 ```js
 const getData = (payload) => {
   const query = parser(payload);
@@ -40,22 +45,46 @@ const getData = (payload) => {
 
 Cursor 中文意思是游标，在 MongoDB [官方文档](https://docs.mongodb.com/manual/reference/glossary/#term-cursor)释义如下
 
->A pointer to the result set of a query. Clients can iterate through a cursor to retrieve results. By default, cursors timeout after 10 minutes of inactivity.
+> A pointer to the result set of a query. Clients can iterate through a cursor to retrieve results. By default, cursors timeout after 10 minutes of inactivity.
 
 Google 翻译一下
 
->指向查询结果集的指针。 客户端可以迭代游标来检索结果。 默认情况下，游标在闲置10分钟后超时。
+> 指向查询结果集的指针。 客户端可以迭代游标来检索结果。 默认情况下，游标在闲置 10 分钟后超时。
 
 与 `find` 直接拿到结果集的方式不同，`cursor` 拿到的是一个指针，它指向结果集
 
 通过这个指针，你可以像 es6 的 generator，可以按需获取，逐步处理数据
 
-不过需要注意的是，cursor 一批一批的获取下一份数据，而非一个一个的去获取。
-关于每批次大小设置可以看这里，[batchSize](https://docs.mongodb.com/manual/reference/method/cursor.batchSize)
+不过需要注意的是，cursor 一批一批的获取下一份数据，而非一个一个的去获取。关于每批次大小设置可以看这里，[batchSize](https://docs.mongodb.com/manual/reference/method/cursor.batchSize)
 
 更多的 `cursor` 信息，可以看官方的这一遍介绍，[Iterate a Cursor in the mongo Shell](https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/#read-operations-cursors)
 
+### Examples
+
+#### 使用 Stream Event 的模式
+
+```js
+const cursor = User.find().cursor();
+const users = [];
+await new Promise(function(resolve, reject) {
+  cursor.on('data', user => users.push(user));
+  cursor.on('end', resolve);
+  cursor.on('error', reject);
+});
+
+console.log(users);
+```
+
+完整脚本可以看，[这个文件](https://github.com/yidinghan/blog/blob/master/scripts/mongoose-cursor-map.js)
+
+#### 使用 Co Generator 的模式
+
+```js
+```
+
 ## RxJS
+
+### Examples
 
 # 图解
 

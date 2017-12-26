@@ -1,6 +1,9 @@
 <!-- TOC -->
 
 - [从块处理到流处理](#从块处理到流处理)
+- [图解](#图解)
+  - [原来](#原来)
+  - [现在](#现在)
 - [背景](#背景)
   - [Mongo Cursor](#mongo-cursor)
     - [Examples](#examples)
@@ -8,9 +11,6 @@
       - [使用 Co Generator 的模式](#使用-co-generator-的模式)
   - [RxJS](#rxjs)
     - [MergeMap](#mergemap)
-- [图解](#图解)
-  - [原来](#原来)
-  - [现在](#现在)
 - [代码](#代码)
 - [rx-mpaging](#rx-mpaging)
 
@@ -38,6 +38,18 @@ const getData = (payload) => {
 ```
 
 在这篇文章中，将介绍如何通过使用 `mongo cursor` 与 `rxjs`，来真正**异步化**你的数据流
+
+# 图解
+
+先简单的用两个流程图，对比一下两种模式的区别
+
+## 原来
+
+![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-batch.jpeg)
+
+## 现在
+
+![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-flow.jpeg)
 
 # 背景
 
@@ -118,16 +130,6 @@ RxJS 非常有特点的一个地方就是 operator 非常多，足足有 101 个
 ![](http://reactivex.io/rxjs/img/mergeMap.png)
 
 更多介绍可以看，[中文文档](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-mergeMap)
-
-# 图解
-
-## 原来
-
-![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-batch.jpeg)
-
-## 现在
-
-![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-flow.jpeg)
 
 # 代码
 

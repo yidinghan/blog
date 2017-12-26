@@ -7,7 +7,7 @@
       - [使用 Stream Event 的模式](#使用-stream-event-的模式)
       - [使用 Co Generator 的模式](#使用-co-generator-的模式)
   - [RxJS](#rxjs)
-    - [Examples](#examples-1)
+    - [MergeMap](#mergemap)
 - [图解](#图解)
 - [代码](#代码)
 - [rx-mpaging](#rx-mpaging)
@@ -100,7 +100,20 @@ console.log(users);
 
 ## RxJS
 
-### Examples
+RxJS 是使用 Observables 的响应式编程的库。简单的理解，可以类比支持 Promise 的 lodash，但功能不限于此。
+
+* 官网：http://reactivex.io/rxjs/
+* 中文文档：http://cn.rx.js.org/
+
+RxJS 非常有特点的一个地方就是 operator 非常多，足足有 101 个。而且结合数据流的异步处理，很多地方理解起来往往需要借助图表。
+
+### MergeMap
+
+例如这个我用的比较多的 MergeMap
+
+> 将每个源值投射成 Observable ，该 Observable 会合并到输出 Observable 中。
+
+![](http://reactivex.io/rxjs/img/mergeMap.png)
 
 # 图解
 

@@ -9,6 +9,8 @@
   - [RxJS](#rxjs)
     - [MergeMap](#mergemap)
 - [图解](#图解)
+  - [原来](#原来)
+  - [现在](#现在)
 - [代码](#代码)
 - [rx-mpaging](#rx-mpaging)
 
@@ -118,6 +120,14 @@ RxJS 非常有特点的一个地方就是 operator 非常多，足足有 101 个
 更多介绍可以看，[中文文档](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-mergeMap)
 
 # 图解
+
+## 原来
+
+![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-batch.jpeg)
+
+## 现在
+
+![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-flow.jpeg)
 
 # 代码
 

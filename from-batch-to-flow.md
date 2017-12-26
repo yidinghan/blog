@@ -21,7 +21,7 @@
 很多时候处理数据库数据，套路都将如下：
 
 * parse query
-* read
+* get docs
 * transform
 * return
 
@@ -30,7 +30,7 @@
 ```js
 const getData = (payload) => {
   const query = parser(payload);
-  const docs = await model.read(query);
+  const docs = await model.getDocs(query);
   const data = await Promise.all(docs.map(transform));
 
   return data

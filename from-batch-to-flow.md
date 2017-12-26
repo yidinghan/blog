@@ -96,6 +96,8 @@ await co(function*() {
 console.log(users);
 ```
 
+完整脚本可以看，[这个文件](https://github.com/yidinghan/blog/blob/master/scripts/mongoose-cursor-co.js)
+
 ## RxJS
 
 ### Examples

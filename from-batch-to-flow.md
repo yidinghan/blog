@@ -12,7 +12,6 @@
   - [RxJS](#rxjs)
     - [MergeMap](#mergemap)
 - [代码](#代码)
-- [rx-mpaging](#rx-mpaging)
 
 <!-- /TOC -->
 
@@ -133,4 +132,26 @@ RxJS 非常有特点的一个地方就是 operator 非常多，足足有 101 个
 
 # 代码
 
-# rx-mpaging
+```js
+const { Observable } = require('rxjs');
+const { User, Post } = require('../models');
+
+const concurrent = Number(process.argv[2] || 1000);
+
+(async () => {
+  const count = await User.count(query);
+  const relationshipsCursor = User.find().cursor();
+  const Observer = Observable.fromEvent(relationshipsCursor, 'data');
+
+  Observer.take(count)
+    .map(async user => {
+      const posts = await Post.find({ user: user._id });
+      return posts;
+    })
+    .mergeAll(concurrent)
+    .subscribe(console.log, console.error, () => {
+      console.log('update process complete');
+      process.exit(0);
+    });
+})();
+```

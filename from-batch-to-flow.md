@@ -115,6 +115,8 @@ RxJS 非常有特点的一个地方就是 operator 非常多，足足有 101 个
 
 ![](http://reactivex.io/rxjs/img/mergeMap.png)
 
+更多介绍可以看，[中文文档](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-mergeMap)
+
 # 图解
 
 # 代码

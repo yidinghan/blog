@@ -2,8 +2,8 @@
 
 - [从块处理到流处理](#从块处理到流处理)
 - [图解](#图解)
-  - [原来](#原来)
-  - [现在](#现在)
+  - [块处理](#块处理)
+  - [流处理](#流处理)
 - [背景](#背景)
   - [Mongo Cursor](#mongo-cursor)
     - [Examples](#examples)
@@ -43,11 +43,11 @@ const getData = (payload) => {
 
 先简单的用两个流程图，对比一下两种模式的区别
 
-## 原来
+## 块处理
 
 ![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-batch.jpeg)
 
-## 现在
+## 流处理
 
 ![](https://github.com/yidinghan/blog/blob/master/imgs/from-batch-to-flow-flow.jpeg)
 

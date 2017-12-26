@@ -80,6 +80,20 @@ console.log(users);
 #### 使用 Co Generator 的模式
 
 ```js
+const cursor = User.find().cursor();
+const users = [];
+await co(function*() {
+  const cursor = User.find().cursor();
+  for (
+    let user = yield cursor.next();
+    user != null;
+    user = yield cursor.next()
+  ) {
+    users.push(user);
+  }
+});
+
+console.log(users);
 ```
 
 ## RxJS

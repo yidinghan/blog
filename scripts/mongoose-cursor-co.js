@@ -30,7 +30,7 @@ const User = db.model('User', UserSchema, collectionName);
 
   const cursor = User.find().cursor();
   const users = [];
-  co(function*() {
+  await co(function*() {
     const cursor = User.find().cursor();
     for (
       let user = yield cursor.next();

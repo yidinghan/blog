@@ -30,10 +30,15 @@ const User = db.model('User', UserSchema, collectionName);
 
   const cursor = User.find().cursor();
   const users = [];
-  await new Promise(function(resolve, reject) {
-    cursor.on('data', user => users.push(user));
-    cursor.on('end', resolve);
-    cursor.on('error', reject);
+  co(function*() {
+    const cursor = User.find().cursor();
+    for (
+      let user = yield cursor.next();
+      user != null;
+      user = yield cursor.next()
+    ) {
+      users.push(user);
+    }
   });
 
   console.log(users);

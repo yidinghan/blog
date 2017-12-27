@@ -8,6 +8,11 @@ const suite = new Benchmark.Suite('from batch to flow', {
   onComplete: () => drop(),
 });
 
+const warnup = async defer => {
+  await Promise.all([User.count({}), Post.count({})]);
+  defer && defer.resolve();
+};
+
 const runBatch = async defer => {
   const users = await User.find();
   const postsNested = await Promise.all(
@@ -27,20 +32,21 @@ const runFlow = async defer => {
   users$
     .take(50)
     .mergeMap(user => Post.find({ username: user.name }))
+    .mergeAll()
     .toArray()
-    .subscribe(postsNested => {
-      const posts = [].concat.apply([], postsNested);
+    .subscribe(posts => {
       assert.ok(posts.length === 250);
       defer.resolve();
     });
 };
 
 (async () => {
-  await Promise.all([User.count({}), Post.count({})]);
+  await warnup();
   await drop();
   await initData();
 
   suite
+    .add('warm up', warnup, { defer: true })
     .add('batch', runBatch, { defer: true })
     .add('flow', runFlow, { defer: true })
     .on('cycle', event => {

@@ -16,9 +16,7 @@ const warnup = async defer => {
 const runBatch = async defer => {
   const users = await User.find();
   const postsNested = await Promise.all(
-    users.map(user => {
-      return Post.find({ username: user.name });
-    })
+    users.map(user => Post.find({ username: user.name }))
   );
   const posts = [].concat.apply([], postsNested);
   assert.ok(posts.length === 250);
@@ -27,9 +25,7 @@ const runBatch = async defer => {
 
 const runFlow = async defer => {
   const usersCursor = User.find().cursor();
-  const users$ = Observable.fromEvent(usersCursor, 'data');
-
-  users$
+  Observable.fromEvent(usersCursor, 'data')
     .take(50)
     .mergeMap(user => Post.find({ username: user.name }))
     .mergeAll()
@@ -48,6 +44,7 @@ const runFlow = async defer => {
   suite
     .add('warm up', warnup, { defer: true })
     .add('batch', runBatch, { defer: true })
+    .add('warm up again', warnup, { defer: true })
     .add('flow', runFlow, { defer: true })
     .on('cycle', event => {
       console.log(String(event.target));

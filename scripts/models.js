@@ -17,23 +17,13 @@ const PostSchema = new mongoose.Schema({
 const Post = db.model('Post', PostSchema, 'tmppost');
 
 const initData = async () => {
-  const userP = User.insertMany([
-    {
-      name: 'ding',
-      phone: '13888888888',
-    },
-    {
-      name: 'dingding',
-      phone: '13666666666',
-    },
-    {
-      name: 'dingdingding',
-      phone: '18888888888',
-    },
-  ]);
+  const users = Array(50)
+    .fill('ding')
+    .map((value, index) => ({ name: value + index }));
+  const userP = User.insertMany(users);
   const posts = [];
-  ['ding', 'dingding', 'dingdingding'].forEach(username => {
-    Array(3)
+  users.forEach(({ name: username }) => {
+    Array(5)
       .fill('tmp')
       .forEach((value, index) => {
         posts.push({

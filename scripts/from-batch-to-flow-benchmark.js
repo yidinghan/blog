@@ -16,37 +16,33 @@ const runBatch = async defer => {
     })
   );
   const posts = [].concat.apply([], postsNested);
-  assert.ok(posts.length === 9);
+  assert.ok(posts.length === 250);
   defer.resolve();
 };
 
 const runFlow = async defer => {
-  const count = await User.count({});
   const usersCursor = User.find().cursor();
   const users$ = Observable.fromEvent(usersCursor, 'data');
 
   users$
-    .take(count)
-    .mergeMap(async user => {
-      const posts = await Post.find({ username: user.name });
-      return posts;
-    })
-    .mergeAll()
+    .take(50)
+    .mergeMap(user => Post.find({ username: user.name }))
     .toArray()
-    .subscribe(posts => {
-      assert.ok(posts.length === 9);
+    .subscribe(postsNested => {
+      const posts = [].concat.apply([], postsNested);
+      assert.ok(posts.length === 250);
       defer.resolve();
     });
 };
 
 (async () => {
-  await User.count({});
+  await Promise.all([User.count({}), Post.count({})]);
   await drop();
   await initData();
 
   suite
-    .add('flow', runFlow, { defer: true })
     .add('batch', runBatch, { defer: true })
+    .add('flow', runFlow, { defer: true })
     .on('cycle', event => {
       console.log(String(event.target));
     })

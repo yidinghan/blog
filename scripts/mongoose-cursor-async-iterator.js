@@ -28,18 +28,21 @@ const User = db.model('User', UserSchema, collectionName);
     },
   ]);
 
-  const cursor = User.find().cursor();
+  // const cursor = User.find().cursor();
   const users = [];
-  await co(function*() {
+  const getUsersIterator = async function*() {
     const cursor = User.find().cursor();
-    for (
-      let user = yield cursor.next();
-      user != null;
-      user = yield cursor.next()
-    ) {
-      users.push(user);
+    while (true) {
+      const user = await cursor.next();
+      if (!user) return;
+
+      yield user;
     }
-  });
+  };
+
+  for await (const user of getUsersIterator()) {
+    users.push(user);
+  }
 
   console.log(users);
   await db.dropCollection(collectionName);

@@ -1,5 +1,6 @@
 const Benchmark = require('benchmark');
-const { Observable } = require('rxjs');
+const { fromEvent } = require('rxjs');
+const { take, mergeMap, mergeAll, toArray } = require('rxjs/operators');
 const assert = require('assert');
 
 const { User, Post, drop, initData } = require('./models');
@@ -8,29 +9,31 @@ const suite = new Benchmark.Suite('from batch to flow', {
   onComplete: () => drop(),
 });
 
-const warnup = async defer => {
+const warnup = async (defer) => {
   await Promise.all([User.count({}), Post.count({})]);
   defer && defer.resolve();
 };
 
-const runBatch = async defer => {
+const runBatch = async (defer) => {
   const users = await User.find();
   const postsNested = await Promise.all(
-    users.map(user => Post.find({ username: user.name }))
+    users.map((user) => Post.find({ username: user.name }))
   );
   const posts = [].concat.apply([], postsNested);
   assert.ok(posts.length === 250);
   defer.resolve();
 };
 
-const runFlow = async defer => {
+const runFlow = async (defer) => {
   const usersCursor = User.find().cursor();
-  Observable.fromEvent(usersCursor, 'data')
-    .take(50)
-    .mergeMap(user => Post.find({ username: user.name }))
-    .mergeAll()
-    .toArray()
-    .subscribe(posts => {
+  fromEvent(usersCursor, 'data')
+    .pipe(
+      take(50),
+      mergeMap((user) => Post.find({ username: user.name })),
+      mergeAll(),
+      toArray()
+    )
+    .subscribe((posts) => {
       assert.ok(posts.length === 250);
       defer.resolve();
     });
@@ -46,7 +49,7 @@ const runFlow = async defer => {
     .add('batch', runBatch, { defer: true })
     .add('warm up again', warnup, { defer: true })
     .add('flow', runFlow, { defer: true })
-    .on('cycle', event => {
+    .on('cycle', (event) => {
       console.log(String(event.target));
     })
     .on('complete', function() {

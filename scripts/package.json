@@ -11,11 +11,11 @@
   "dependencies": {
     "benchmark": "^2.1.4",
     "co": "^4.6.0",
-    "mongoose": "^4.13.7",
-    "rxjs": "^5.5.6"
+    "mongoose": "^5.0.16",
+    "rxjs": "^6.0.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.11.0"
   }
 }

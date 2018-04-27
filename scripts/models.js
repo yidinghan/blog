@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 const { promisify } = require('util');
 
 mongoose.Promise = Promise;
-const db = mongoose.createConnection('localhost/test');
-db.db.dropCollection = promisify(db.db.dropCollection);
+const db = mongoose.createConnection('mongodb://localhost/test');
+// db.dropCollection = promisify(db.dropCollection);
 
 const UserSchema = new mongoose.Schema({
   name: String,
@@ -38,10 +38,14 @@ const initData = async () => {
 };
 
 const drop = async () => {
-  const userP = db.db.dropCollection('tmpuser');
-  const postP = db.db.dropCollection('tmppost');
+  try {
+    const userP = db.dropCollection('tmpuser');
+    const postP = db.dropCollection('tmppost');
 
-  await Promise.all([userP, postP]);
+    await Promise.all([userP, postP]);
+  } catch (e) {
+    console.error(e);
+  }
 };
 
 module.exports = { User, Post, initData, drop };

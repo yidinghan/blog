@@ -355,7 +355,7 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
             paths:
                 - node_modules/
         services:
-            - docker.gf.com.cn/mongo:3.2
+            - mongo:3.2
         only:
             - /^feature.*$/
             - develop
@@ -364,8 +364,7 @@ PS，两种 review 的 comment 都是独立的，也就是说在 MR 的 comment 
     
     build_image:
         script:
-            - docker login -u $DOCKER_GF_USERNAME -p $DOCKER_GF_PASSWORD -e $DOCKER_GF_EMAIL docker.gf.com.cn
-            - sh ./sbin/build_gfwealth_base.sh $CI_BUILD_REF_NAME
+            - docker build
         stage: build
         only:
             - develop
